@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/bg-2.png');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, main {
+    width: 960px;
+    margin: 50px auto;
+}
+
+header {
+    background-color: #ff3d00;
+    height: 50px;
+}
+
+header img, nav, header ul li {
+    display: inline-block;
+}
+
+header img {
+    float:left;
+    margin: 10px 30px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: snow;
+    font-size: 1.2em;
+}
+
+#galeriaProdutos {
+    background-color: #fffafa;
+    /* font-size: 0 Utilizada para remover espaço em branco 
+    entre as divs que ocupa espaço e atrapalha 
+    organização dos items */
+    font-size: 0;
+}
+
+.produtos {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    text-align: center;
+    /* Restabelecer o tamanho do texto dentro das divs */
+    font-size: initial;
+}
+
+#produto1, #produto5, #produto9 {
+    background-image: url('../images/img-phone-01.jpg');
+}
+
+#produto2, #produto4, #produto8 {
+    background-image: url('../images/img-phone-02.jpg');
+}
+
+#produto3, #produto6, #produto7 {
+    background-image: url('../images/img-phone-03.jpg');
+}
+
+.produtos a {
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    background-color: red;
+    text-transform: uppercase;
+    color: snow;
+}
+
+.produtos h2 {
+    background-color: #00000066;
+    margin: 100px 0 0 0;
+    transform: translateY(-50%);
+}
